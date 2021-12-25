@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Login Form</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        height: 100%;
+      }
+      body {
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 1rem;
+        line-height: 1.6;
+        height: 100%;
+      }
+      .wrap {
+        
+        justify-content: center;
+        align-items: center;
+        
+      }
+      
+      .form-input {
+        
+        border: 1px solid #eeeeee;
+        padding: 12px;
+        width: 20pc;
+      }
+      .form-group {
+          text-align: center;
+        margin-bottom: 1rem;
+      }
+      .form-button {
+        background: #69d2e7;
+        border: 1px solid #ddd;
+        color: #ffffff;
+        padding: 10px;
+        
+        text-transform: uppercase;
+      }
+      .form-button:hover {
+        background: #69c8e7;
+      }
+      .form-header {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      .form-footer {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <form class="login-form" action="">
+        <div class="form-header">
+          <h3>Sign up</h3>
+          <p>Fill in the required informations appropriately</p>
+        </div>
+        <!--Email Input-->
+        <div class="form-group">
+            <input
+            type="text"
+            class="form-input"
+            placeholder="Full name"
+            /><br><br>
+            
+          <input
+            type="email"
+            class="form-input"
+            placeholder="Email"><br>
+        </div>
+        <!--Password Input-->
+        <div class="form-group">
+          <input type="password" class="form-input" placeholder="Password" />
+        </div>
+        <!--Login Button-->
+        <div class="form-group">
+         <a href="index45.html" ><button class="form-button" type="submit">Sign up</button></a>
+        </div>
+        <div class="form-footer">
+        
+        </div>
+      </form>
+    </div>
+    <!--/.wrap-->
+  </body>
+</html>
